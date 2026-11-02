@@ -34,7 +34,7 @@
                     class="brand"
                     aria-label="Snowa Cafe - Trang chủ"
                     ><img
-                        src="./public/image/logo.png"
+                        src="./public/image/logo.webp"
                         alt="SNOWA Fresh Moments Cafe"
                 /></a>
                 <details class="mobile-menu">
@@ -91,7 +91,7 @@
                         <img
                             class="product-detail-image"
                             id="product-main-image"
-                            src="./public/image/menu-hero-v2.png"
+                            src="./public/image/menu-hero-v2.webp"
                             alt="Món Snowa"
                         />
                         <span class="product-image-zoom"
@@ -178,7 +178,7 @@
                         aria-hidden="true"
                     ></i>
                 </button>
-                <img id="product-lightbox-image" src="" alt="" />
+                <img id="product-lightbox-image" src="" alt="" loading="lazy" decoding="async">
                 <button
                     class="product-lightbox-nav product-lightbox-next"
                     id="product-lightbox-next"
@@ -197,7 +197,7 @@
             <div class="container footer-grid">
                 <div class="footer-brand">
                     <img
-                        src="./public/image/logo.png"
+                        src="./public/image/logo.webp"
                         alt="SNOWA Fresh Moments Cafe"
                     />
                     <p>
@@ -440,60 +440,60 @@
             );
             const galleryExtras = {
                 "mango-bingsu": [
-                    "./public/image/menu-hero-v2.png",
-                    "./public/image/hero-products.png",
+                    "./public/image/menu-hero-v2.webp",
+                    "./public/image/hero-products.webp",
                 ],
                 "matcha-latte": [
-                    "./public/image/matcha-v2.png",
-                    "./public/image/hero-products.png",
+                    "./public/image/matcha-v2.webp",
+                    "./public/image/hero-products.webp",
                 ],
                 "coconut-coffee": [
-                    "./public/image/hero-products.png",
-                    "./public/image/menu-products.png",
+                    "./public/image/hero-products.webp",
+                    "./public/image/menu-products.webp",
                 ],
                 tiramisu: [
-                    "./public/image/menu-products.png",
-                    "./public/image/hero-products.png",
+                    "./public/image/menu-products.webp",
+                    "./public/image/hero-products.webp",
                 ],
                 "peach-tea": [
-                    "./public/image/menu-products.png",
-                    "./public/image/strawberry-yogurt.png",
+                    "./public/image/menu-products.webp",
+                    "./public/image/strawberry-yogurt.webp",
                 ],
                 "salted-cocoa": [
-                    "./public/image/menu-products.png",
-                    "./public/image/hero-products.png",
+                    "./public/image/menu-products.webp",
+                    "./public/image/hero-products.webp",
                 ],
                 "matcha-cheesecake": [
-                    "./public/image/matcha-v2.png",
-                    "./public/image/menu-products.png",
+                    "./public/image/matcha-v2.webp",
+                    "./public/image/menu-products.webp",
                 ],
                 "strawberry-yogurt": [
-                    "./public/image/strawberry-yogurt.png",
-                    "./public/image/menu-products.png",
+                    "./public/image/strawberry-yogurt.webp",
+                    "./public/image/menu-products.webp",
                 ],
                 "blueberry-smoothie": [
-                    "./public/image/blueberry-smoothie.png",
-                    "./public/image/strawberry-yogurt.png",
+                    "./public/image/blueberry-smoothie.webp",
+                    "./public/image/strawberry-yogurt.webp",
                 ],
                 "strawberry-bingsu": [
-                    "./public/image/strawberry-yogurt.png",
-                    "./public/image/menu-hero-v2.png",
+                    "./public/image/strawberry-yogurt.webp",
+                    "./public/image/menu-hero-v2.webp",
                 ],
                 "vanilla-latte": [
-                    "./public/image/hero-products.png",
-                    "./public/image/menu-products.png",
+                    "./public/image/hero-products.webp",
+                    "./public/image/menu-products.webp",
                 ],
                 "cold-brew": [
-                    "./public/image/hero-products.png",
-                    "./public/image/menu-products.png",
+                    "./public/image/hero-products.webp",
+                    "./public/image/menu-products.webp",
                 ],
                 "chocolate-brownie": [
-                    "./public/image/menu-products.png",
-                    "./public/image/hero-products.png",
+                    "./public/image/menu-products.webp",
+                    "./public/image/hero-products.webp",
                 ],
                 "milk-tea": [
-                    "./public/image/milk-tea.png",
-                    "./public/image/menu-products.png",
+                    "./public/image/milk-tea.webp",
+                    "./public/image/menu-products.webp",
                 ],
             };
             if (product.image) {
@@ -537,6 +537,8 @@
                     const thumbnail = document.createElement("img");
                     thumbnail.src = src;
                     thumbnail.alt = "";
+                    thumbnail.loading = "lazy";
+                    thumbnail.decoding = "async";
                     button.append(thumbnail);
                     button.addEventListener("click", () => {
                         selectImage(index);
@@ -617,6 +619,8 @@
                         const photo = document.createElement("img");
                         photo.src = item.image;
                         photo.alt = "";
+                        photo.loading = "lazy";
+                        photo.decoding = "async";
                         image.append(photo);
                     } else if (item.sprite) {
                         const photo = document.createElement("span");
