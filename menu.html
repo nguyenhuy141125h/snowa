@@ -1,0 +1,729 @@
+<!doctype html>
+<html lang="vi">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="theme-color" content="#f8f4ec" />
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="512x512"
+            href="./public/image/favicon.png"
+        />
+        <title>Menu | SNOWA – Fresh Moments Cafe</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Montserrat:wght@400;500;600;700&family=Quicksand:wght@400;500;600;700&display=swap"
+            rel="stylesheet"
+        />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        />
+        <link
+            rel="stylesheet"
+            href="./public/css/style.css?v=menu-bottom-gap-removed"
+        />
+    </head>
+    <body>
+        <header class="header" id="top">
+            <div class="header-inner">
+                <a
+                    href="index.html"
+                    class="brand"
+                    aria-label="Snowa Cafe - Trang chủ"
+                    ><img
+                        src="./public/image/logo.png"
+                        alt="SNOWA Fresh Moments Cafe"
+                /></a>
+                <details class="mobile-menu">
+                    <summary aria-label="Mở menu">
+                        <i class="icon fa-solid fa-bars" aria-hidden="true"></i>
+                    </summary>
+                    <nav aria-label="Điều hướng di động">
+                        <a href="index.html">TRANG CHỦ</a
+                        ><a href="about.html">GIỚI THIỆU</a
+                        ><a class="active" href="menu.html">MENU</a
+                        ><a href="promotions.html">KHUYẾN MÃI</a
+                        ><a href="news.html">TIN TỨC</a
+                        ><a href="contact.html">LIÊN HỆ</a>
+                    </nav>
+                </details>
+                <nav class="nav" aria-label="Điều hướng chính">
+                    <a href="index.html">TRANG CHỦ</a
+                    ><a href="about.html">GIỚI THIỆU</a
+                    ><a class="active" href="menu.html">MENU</a
+                    ><a href="promotions.html">KHUYẾN MÃI</a
+                    ><a href="news.html">TIN TỨC</a
+                    ><a href="contact.html">LIÊN HỆ</a>
+                </nav>
+                <a
+                    href="contact.html#contact"
+                    class="btn btn-solid header-order"
+                    >ĐẶT BÀN / ORDER</a
+                >
+            </div>
+        </header>
+
+        <main class="menu-catalog">
+            <section class="catalog-hero">
+                <div class="catalog-hero-copy">
+                    <p class="eyebrow">MENU SNOWA · FRESH MOMENTS</p>
+                    <h1>Món ngon cho<br /><span>khoảnh khắc của bạn.</span></h1>
+                    <p>
+                        Bingsu mát lạnh, cà phê thơm đậm, trà dịu nhẹ và bánh
+                        ngọt vừa đủ — chọn món bạn yêu thích nhé.
+                    </p>
+                    <a class="btn btn-solid" href="#menu-categories"
+                        >XEM THỰC ĐƠN
+                        <i
+                            class="icon fa-solid fa-arrow-down"
+                            aria-hidden="true"
+                        ></i
+                    ></a>
+                </div>
+                <figure class="catalog-hero-photo">
+                    <img
+                        src="./public/image/menu-hero-v2.png"
+                        alt="Bingsu xoài và matcha latte đặc trưng của Snowa"
+                    />
+                    <figcaption>
+                        <span>SNOWA SIGNATURE</span
+                        ><strong>Mát lành, vừa vặn cho ngày vui.</strong>
+                    </figcaption>
+                </figure>
+            </section>
+
+            <section class="catalog-wrap container" id="menu-categories">
+                <nav class="catalog-filters" aria-label="Đi đến danh mục món">
+                    <button
+                        class="is-active"
+                        type="button"
+                        data-category-target="all"
+                        aria-current="location"
+                    >
+                        Tất cả <span>14</span>
+                    </button>
+                    <button
+                        type="button"
+                        data-category-target="bing-su"
+                        aria-current="false"
+                    >
+                        Bingsu &amp; món mát
+                    </button>
+                    <button
+                        type="button"
+                        data-category-target="coffee"
+                        aria-current="false"
+                    >
+                        Cà phê
+                    </button>
+                    <button
+                        type="button"
+                        data-category-target="drinks"
+                        aria-current="false"
+                    >
+                        Trà &amp; thức uống
+                    </button>
+                    <button
+                        type="button"
+                        data-category-target="dessert"
+                        aria-current="false"
+                    >
+                        Bánh ngọt
+                    </button>
+                </nav>
+
+                <section
+                    class="catalog-group"
+                    id="bing-su"
+                    data-category-group="bing-su"
+                >
+                    <div class="catalog-group-heading">
+                        <span>01</span>
+                        <div>
+                            <h2>Bingsu &amp; món mát</h2>
+                            <p>
+                                Vị trái cây tươi và chút ngọt dịu cho ngày nắng.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="catalog-grid">
+                        <a
+                            class="catalog-card"
+                            href="product-detail.html#mango-bingsu"
+                            ><span class="catalog-photo"
+                                ><img
+                                    src="https://images.unsplash.com/photo-1748831876085-03664b683cfd?auto=format&amp;fit=crop&amp;w=900&amp;q=82"
+                                    alt="Bingsu xoài"
+                                    loading="lazy" /><span class="catalog-view"
+                                    >XEM MÓN
+                                    <i
+                                        class="icon fa-solid fa-arrow-right"
+                                        aria-hidden="true"
+                                    ></i></span></span
+                            ><span class="catalog-card-copy"
+                                ><span class="catalog-card-title"
+                                    ><span
+                                        ><strong>Bingsu xoài</strong
+                                        ><em>Mango Bingsu</em></span
+                                    ><b>79.000đ</b></span
+                                ><span class="catalog-desc"
+                                    >Xoài chín, đá bào mịn và chút topping giòn
+                                    vui miệng.</span
+                                ></span
+                            ></a
+                        >
+                        <a
+                            class="catalog-card"
+                            href="product-detail.html#strawberry-yogurt"
+                            ><span class="catalog-photo"
+                                ><img
+                                    src="https://images.unsplash.com/photo-1670843839025-d50924a51f31?auto=format&amp;fit=crop&amp;w=900&amp;q=82"
+                                    alt="Sữa chua dâu tây"
+                                    loading="lazy" /><span class="catalog-view"
+                                    >XEM MÓN
+                                    <i
+                                        class="icon fa-solid fa-arrow-right"
+                                        aria-hidden="true"
+                                    ></i></span></span
+                            ><span class="catalog-card-copy"
+                                ><span class="catalog-card-title"
+                                    ><span
+                                        ><strong>Sữa chua dâu tây</strong
+                                        ><em>Strawberry Yogurt</em></span
+                                    ><b>52.000đ</b></span
+                                ><span class="catalog-desc"
+                                    >Dâu tây tươi cùng sữa chua mát mịn, chua
+                                    ngọt hài hòa.</span
+                                ></span
+                            ></a
+                        >
+                        <a
+                            class="catalog-card"
+                            href="product-detail.html#strawberry-bingsu"
+                            ><span class="catalog-photo"
+                                ><img
+                                    src="https://images.unsplash.com/photo-1490474418585-ba9bad8fd0ea?auto=format&amp;fit=crop&amp;w=900&amp;q=82"
+                                    alt="Bingsu dâu tây"
+                                    loading="lazy" /><span class="catalog-view"
+                                    >XEM MÓN
+                                    <i
+                                        class="icon fa-solid fa-arrow-right"
+                                        aria-hidden="true"
+                                    ></i></span></span
+                            ><span class="catalog-card-copy"
+                                ><span class="catalog-card-title"
+                                    ><span
+                                        ><strong>Bingsu dâu tây</strong
+                                        ><em>Strawberry Bingsu</em></span
+                                    ><b>75.000đ</b></span
+                                ><span class="catalog-desc"
+                                    >Dâu tươi chín mọng, đá bào mịn và kem sữa
+                                    dịu ngọt.</span
+                                ></span
+                            ></a
+                        >
+                    </div>
+                </section>
+
+                <section
+                    class="catalog-group catalog-group-tinted"
+                    id="coffee"
+                    data-category-group="coffee"
+                >
+                    <div class="catalog-group-heading">
+                        <span>02</span>
+                        <div>
+                            <h2>Cà phê</h2>
+                            <p>Một ly cà phê êm vị cho buổi hẹn thong thả.</p>
+                        </div>
+                    </div>
+                    <div class="catalog-grid catalog-grid-single">
+                        <a
+                            class="catalog-card"
+                            href="product-detail.html#coconut-coffee"
+                            ><span class="catalog-photo"
+                                ><img
+                                    src="https://images.unsplash.com/photo-1769624569453-57a67f094a4b?auto=format&amp;fit=crop&amp;w=900&amp;q=82"
+                                    alt="Cà phê trong không gian quán"
+                                    loading="lazy" /><span class="catalog-view"
+                                    >XEM MÓN
+                                    <i
+                                        class="icon fa-solid fa-arrow-right"
+                                        aria-hidden="true"
+                                    ></i></span></span
+                            ><span class="catalog-card-copy"
+                                ><span class="catalog-card-title"
+                                    ><span
+                                        ><strong>Cà phê sữa dừa</strong
+                                        ><em>Coconut Coffee</em></span
+                                    ><b>55.000đ</b></span
+                                ><span class="catalog-desc"
+                                    >Cà phê đậm quyện vị dừa béo nhẹ, hậu vị
+                                    êm.</span
+                                ></span
+                            ></a
+                        >
+
+                        <a
+                            class="catalog-card"
+                            href="product-detail.html#vanilla-latte"
+                            ><span class="catalog-photo"
+                                ><img
+                                    src="https://images.unsplash.com/photo-1509042239860-f550ce710b93?auto=format&amp;fit=crop&amp;w=900&amp;q=82"
+                                    alt="Vanilla latte"
+                                    loading="lazy" /><span class="catalog-view"
+                                    >XEM MÓN
+                                    <i
+                                        class="icon fa-solid fa-arrow-right"
+                                        aria-hidden="true"
+                                    ></i></span></span
+                            ><span class="catalog-card-copy"
+                                ><span class="catalog-card-title"
+                                    ><span
+                                        ><strong>Vanilla latte</strong
+                                        ><em>Vanilla Latte</em></span
+                                    ><b>59.000đ</b></span
+                                ><span class="catalog-desc"
+                                    >Espresso thơm đậm hòa cùng sữa tươi và
+                                    hương vanilla nhẹ.</span
+                                ></span
+                            ></a
+                        ><a
+                            class="catalog-card"
+                            href="product-detail.html#cold-brew"
+                            ><span class="catalog-photo"
+                                ><img
+                                    src="https://images.unsplash.com/photo-1461023058943-07fcbe16d735?auto=format&amp;fit=crop&amp;w=900&amp;q=82"
+                                    alt="Cold brew cam"
+                                    loading="lazy" /><span class="catalog-view"
+                                    >XEM MÓN
+                                    <i
+                                        class="icon fa-solid fa-arrow-right"
+                                        aria-hidden="true"
+                                    ></i></span></span
+                            ><span class="catalog-card-copy"
+                                ><span class="catalog-card-title"
+                                    ><span
+                                        ><strong>Cold brew cam</strong
+                                        ><em>Orange Cold Brew</em></span
+                                    ><b>52.000đ</b></span
+                                ><span class="catalog-desc"
+                                    >Cà phê ủ lạnh thanh mát, điểm chút hương
+                                    cam tươi.</span
+                                ></span
+                            ></a
+                        >
+                    </div>
+                </section>
+
+                <section
+                    class="catalog-group"
+                    id="drinks"
+                    data-category-group="drinks"
+                >
+                    <div class="catalog-group-heading">
+                        <span>03</span>
+                        <div>
+                            <h2>Trà &amp; thức uống</h2>
+                            <p>
+                                Những lựa chọn tươi mát cho giờ nghỉ ngắn hay
+                                buổi chuyện trò lâu.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="catalog-grid">
+                        <a
+                            class="catalog-card"
+                            href="product-detail.html#matcha-latte"
+                            ><span class="catalog-photo"
+                                ><img
+                                    src="https://images.unsplash.com/photo-1631679263320-004b9241ae5e?auto=format&amp;fit=crop&amp;w=900&amp;q=82"
+                                    alt="Matcha latte"
+                                    loading="lazy" /><span class="catalog-view"
+                                    >XEM MÓN
+                                    <i
+                                        class="icon fa-solid fa-arrow-right"
+                                        aria-hidden="true"
+                                    ></i></span></span
+                            ><span class="catalog-card-copy"
+                                ><span class="catalog-card-title"
+                                    ><span
+                                        ><strong>Matcha latte</strong
+                                        ><em>Matcha Latte</em></span
+                                    ><b>59.000đ</b></span
+                                ><span class="catalog-desc"
+                                    >Matcha xanh mượt, sữa thơm béo nhẹ và đá
+                                    mát lành.</span
+                                ></span
+                            ></a
+                        >
+                        <a
+                            class="catalog-card"
+                            href="product-detail.html#blueberry-smoothie"
+                            ><span class="catalog-photo"
+                                ><img
+                                    src="https://images.unsplash.com/photo-1588929473475-d16ffd5d068c?auto=format&amp;fit=crop&amp;w=900&amp;q=82"
+                                    alt="Sinh tố việt quất"
+                                    loading="lazy" /><span class="catalog-view"
+                                    >XEM MÓN
+                                    <i
+                                        class="icon fa-solid fa-arrow-right"
+                                        aria-hidden="true"
+                                    ></i></span></span
+                            ><span class="catalog-card-copy"
+                                ><span class="catalog-card-title"
+                                    ><span
+                                        ><strong>Sinh tố việt quất</strong
+                                        ><em>Blueberry Yogurt</em></span
+                                    ><b>55.000đ</b></span
+                                ><span class="catalog-desc"
+                                    >Việt quất chua ngọt xay cùng sữa chua
+                                    mịn.</span
+                                ></span
+                            ></a
+                        >
+                        <a
+                            class="catalog-card"
+                            href="product-detail.html#milk-tea"
+                            ><span class="catalog-photo"
+                                ><img
+                                    src="https://images.unsplash.com/photo-1774979300682-f92e5988d55b?auto=format&amp;fit=crop&amp;w=900&amp;q=82"
+                                    alt="Trà sữa trân châu"
+                                    loading="lazy" /><span class="catalog-view"
+                                    >XEM MÓN
+                                    <i
+                                        class="icon fa-solid fa-arrow-right"
+                                        aria-hidden="true"
+                                    ></i></span></span
+                            ><span class="catalog-card-copy"
+                                ><span class="catalog-card-title"
+                                    ><span
+                                        ><strong>Trà sữa trân châu</strong
+                                        ><em>Milk Tea</em></span
+                                    ><b>49.000đ</b></span
+                                ><span class="catalog-desc"
+                                    >Trà đậm thơm, sữa dịu và trân châu dai
+                                    mềm.</span
+                                ></span
+                            ></a
+                        >
+                        <a
+                            class="catalog-card"
+                            href="product-detail.html#peach-tea"
+                            ><span class="catalog-photo"
+                                ><img
+                                    src="https://images.unsplash.com/photo-1771962525063-bffd5f4b0b25?auto=format&amp;fit=crop&amp;w=900&amp;q=82"
+                                    alt="Trà trái cây đá"
+                                    loading="lazy" /><span class="catalog-view"
+                                    >XEM MÓN
+                                    <i
+                                        class="icon fa-solid fa-arrow-right"
+                                        aria-hidden="true"
+                                    ></i></span></span
+                            ><span class="catalog-card-copy"
+                                ><span class="catalog-card-title"
+                                    ><span
+                                        ><strong>Trà đào cam sả</strong
+                                        ><em>Peach Lemongrass Tea</em></span
+                                    ><b>52.000đ</b></span
+                                ><span class="catalog-desc"
+                                    >Đào ngọt dịu, hương trà và chút thơm tươi
+                                    của cam sả.</span
+                                ></span
+                            ></a
+                        >
+                        <a
+                            class="catalog-card"
+                            href="product-detail.html#salted-cocoa"
+                            ><span class="catalog-photo"
+                                ><img
+                                    src="https://images.unsplash.com/photo-1788876727254-405db974d8a9?auto=format&amp;fit=crop&amp;w=900&amp;q=82"
+                                    alt="Ca cao nóng trong ly thủy tinh"
+                                    loading="lazy" /><span class="catalog-view"
+                                    >XEM MÓN
+                                    <i
+                                        class="icon fa-solid fa-arrow-right"
+                                        aria-hidden="true"
+                                    ></i></span></span
+                            ><span class="catalog-card-copy"
+                                ><span class="catalog-card-title"
+                                    ><span
+                                        ><strong>Cacao kem muối</strong
+                                        ><em>Salted Cream Cocoa</em></span
+                                    ><b>55.000đ</b></span
+                                ><span class="catalog-desc"
+                                    >Cacao đậm vị, cân bằng với lớp kem muối
+                                    mịn.</span
+                                ></span
+                            ></a
+                        >
+                    </div>
+                </section>
+
+                <section
+                    class="catalog-group catalog-group-tinted"
+                    id="dessert"
+                    data-category-group="dessert"
+                >
+                    <div class="catalog-group-heading">
+                        <span>04</span>
+                        <div>
+                            <h2>Bánh ngọt</h2>
+                            <p>
+                                Thêm một miếng bánh nhỏ để buổi cà phê thêm trọn
+                                vẹn.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="catalog-grid">
+                        <a
+                            class="catalog-card"
+                            href="product-detail.html#tiramisu"
+                            ><span class="catalog-photo"
+                                ><img
+                                    src="https://images.unsplash.com/photo-1762796946606-820de9c90b20?auto=format&amp;fit=crop&amp;w=900&amp;q=82"
+                                    alt="Bánh tiramisu phủ cacao"
+                                    loading="lazy" /><span class="catalog-view"
+                                    >XEM MÓN
+                                    <i
+                                        class="icon fa-solid fa-arrow-right"
+                                        aria-hidden="true"
+                                    ></i></span></span
+                            ><span class="catalog-card-copy"
+                                ><span class="catalog-card-title"
+                                    ><span
+                                        ><strong>Tiramisu</strong
+                                        ><em>Tiramisu Cake</em></span
+                                    ><b>49.000đ</b></span
+                                ><span class="catalog-desc"
+                                    >Lớp bánh mềm, kem mịn và hương cà phê đậm
+                                    đà.</span
+                                ></span
+                            ></a
+                        >
+                        <a
+                            class="catalog-card"
+                            href="product-detail.html#matcha-cheesecake"
+                            ><span class="catalog-photo"
+                                ><img
+                                    src="https://images.unsplash.com/photo-1786114576679-072a22e2384c?auto=format&amp;fit=crop&amp;w=900&amp;q=82"
+                                    alt="Cheesecake matcha"
+                                    loading="lazy" /><span class="catalog-view"
+                                    >XEM MÓN
+                                    <i
+                                        class="icon fa-solid fa-arrow-right"
+                                        aria-hidden="true"
+                                    ></i></span></span
+                            ><span class="catalog-card-copy"
+                                ><span class="catalog-card-title"
+                                    ><span
+                                        ><strong>Cheesecake matcha</strong
+                                        ><em>Matcha Cheesecake</em></span
+                                    ><b>59.000đ</b></span
+                                ><span class="catalog-desc"
+                                    >Cheesecake mịn màng cùng vị trà xanh dịu
+                                    nhẹ.</span
+                                ></span
+                            ></a
+                        >
+                        <a
+                            class="catalog-card"
+                            href="product-detail.html#chocolate-brownie"
+                            ><span class="catalog-photo"
+                                ><img
+                                    src="https://images.unsplash.com/photo-1606313564200-e75d5e30476c?auto=format&amp;fit=crop&amp;w=900&amp;q=82"
+                                    alt="Bánh brownie chocolate"
+                                    loading="lazy" /><span class="catalog-view"
+                                    >XEM MÓN
+                                    <i
+                                        class="icon fa-solid fa-arrow-right"
+                                        aria-hidden="true"
+                                    ></i></span></span
+                            ><span class="catalog-card-copy"
+                                ><span class="catalog-card-title"
+                                    ><span
+                                        ><strong>Brownie chocolate</strong
+                                        ><em>Chocolate Brownie</em></span
+                                    ><b>45.000đ</b></span
+                                ><span class="catalog-desc"
+                                    >Bánh chocolate mềm ẩm, vị cacao đậm và chút
+                                    ngọt vừa.</span
+                                ></span
+                            ></a
+                        >
+                    </div>
+                </section>
+            </section>
+            <section class="catalog-cta">
+                <p class="eyebrow">FRESH MOMENTS CAFE</p>
+                <h2>Đã chọn được món yêu thích?</h2>
+                <a class="btn btn-solid" href="contact.html#contact"
+                    >ĐẶT BÀN / ORDER
+                    <i
+                        class="icon fa-solid fa-arrow-right"
+                        aria-hidden="true"
+                    ></i
+                ></a>
+            </section>
+        </main>
+
+        <footer>
+            <div class="container footer-grid">
+                <div class="footer-brand">
+                    <img
+                        src="./public/image/logo.png"
+                        alt="SNOWA Fresh Moments Cafe"
+                    />
+                    <p>
+                        Snowa – Fresh Moments Cafe<br />Cảm ơn bạn đã đồng hành
+                        cùng Snowa.<br />Hãy để mỗi khoảnh khắc tại đây<br />đều
+                        trở nên tươi mát và đáng nhớ.
+                    </p>
+                    <div class="social">
+                        <a href="https://facebook.com" aria-label="Facebook"
+                            ><i
+                                class="icon fa-brands fa-facebook-f"
+                                aria-hidden="true"
+                            ></i></a
+                        ><a href="https://instagram.com" aria-label="Instagram"
+                            ><i
+                                class="icon fa-brands fa-instagram"
+                                aria-hidden="true"
+                            ></i></a
+                        ><a href="https://tiktok.com" aria-label="TikTok"
+                            ><i
+                                class="icon fa-brands fa-tiktok"
+                                aria-hidden="true"
+                            ></i
+                        ></a>
+                    </div>
+                </div>
+                <div>
+                    <h3>THÔNG TIN</h3>
+                    <a href="about.html">Giới thiệu</a
+                    ><a href="menu.html">Menu</a
+                    ><a href="promotions.html">Khuyến mãi</a
+                    ><a href="news.html">Tin tức</a>
+                </div>
+                <div>
+                    <h3>HỖ TRỢ</h3>
+                    <a href="contact.html#contact">Đặt bàn / Order</a
+                    ><a href="contact.html#contact">Câu hỏi thường gặp</a
+                    ><a href="contact.html#contact">Liên hệ</a>
+                </div>
+                <div class="contact">
+                    <h3>LIÊN HỆ</h3>
+                    <p>
+                        <i class="icon fa-solid fa-phone" aria-hidden="true"></i
+                        >0901 234 567
+                    </p>
+                    <p>
+                        <i
+                            class="icon fa-solid fa-envelope"
+                            aria-hidden="true"
+                        ></i
+                        >hello@snowacafe.vn
+                    </p>
+                    <p>
+                        <i
+                            class="icon fa-solid fa-location-dot"
+                            aria-hidden="true"
+                        ></i
+                        ><span
+                            >123 Đường Xanh, P. Thảo Điền,<br />TP. Thủ Đức, TP.
+                            HCM</span
+                        >
+                    </p>
+                    <p>
+                        <i
+                            class="icon fa-regular fa-clock"
+                            aria-hidden="true"
+                        ></i
+                        >07:30 - 22:00 (T2 - CN)
+                    </p>
+                </div>
+            </div>
+            <div class="copyright container">
+                © 2024 SNOWA Cafe. All rights reserved.
+            </div>
+            <a class="back-top" href="#top" aria-label="Về đầu trang"
+                ><i class="icon fa-solid fa-chevron-up" aria-hidden="true"></i
+            ></a>
+        </footer>
+        <script>
+            const categoryButtons = [
+                ...document.querySelectorAll("[data-category-target]"),
+            ];
+            const categoryGroups = [
+                ...document.querySelectorAll("[data-category-group]"),
+            ];
+            const setActiveCategory = (name) => {
+                categoryButtons.forEach((button) => {
+                    const active = button.dataset.categoryTarget === name;
+                    button.classList.toggle("is-active", active);
+                    button.setAttribute(
+                        "aria-current",
+                        active ? "location" : "false",
+                    );
+                });
+            };
+            categoryButtons.forEach((button) =>
+                button.addEventListener("click", () => {
+                    const target = document.getElementById(
+                        button.dataset.categoryTarget === "all"
+                            ? "bing-su"
+                            : button.dataset.categoryTarget,
+                    );
+                    setActiveCategory(button.dataset.categoryTarget);
+                    target.scrollIntoView({
+                        behavior: "smooth",
+                        block: "start",
+                    });
+                }),
+            );
+            const categoryObserver = new IntersectionObserver(
+                (entries) => {
+                    const visible = entries
+                        .filter((entry) => entry.isIntersecting)
+                        .sort(
+                            (a, b) =>
+                                a.boundingClientRect.top -
+                                b.boundingClientRect.top,
+                        )[0];
+                    if (visible)
+                        setActiveCategory(visible.target.dataset.categoryGroup);
+                },
+                { rootMargin: "-100px 0px -40% 0px", threshold: 0 },
+            );
+            categoryGroups.forEach((group) => categoryObserver.observe(group));
+            window.addEventListener(
+                "scroll",
+                () => {
+                    const firstGroupTop =
+                        categoryGroups[0].getBoundingClientRect().top;
+                    if (firstGroupTop > window.innerHeight * 0.6)
+                        setActiveCategory("all");
+                },
+                { passive: true },
+            );
+            const bestsellerIds = new Set([
+                "mango-bingsu",
+                "matcha-latte",
+                "tiramisu",
+            ]);
+            document.querySelectorAll(".catalog-card").forEach((card) => {
+                const itemId = new URL(card.href).hash.slice(1);
+                if (!bestsellerIds.has(itemId)) return;
+                card.classList.add("catalog-card-bestseller");
+                const badge = document.createElement("span");
+                badge.className = "catalog-bestseller";
+                badge.innerHTML = "<span>BEST<br />SELLER</span>";
+                card.querySelector(".catalog-photo").append(badge);
+            });
+        </script>
+        <script src="./public/js/site.js" defer></script>
+    </body>
+</html>

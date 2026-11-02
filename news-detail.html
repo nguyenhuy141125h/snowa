@@ -1,0 +1,442 @@
+<!doctype html>
+<html lang="vi">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="theme-color" content="#f8f4ec" />
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="512x512"
+            href="./public/image/favicon.png"
+        />
+        <title>Bài viết | SNOWA – Fresh Moments Cafe</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Montserrat:wght@400;500;600;700&family=Quicksand:wght@400;500;600;700&display=swap"
+            rel="stylesheet"
+        />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        />
+        <link rel="stylesheet" href="./public/css/style.css" />
+    </head>
+    <body>
+        <header class="header" id="top">
+            <div class="header-inner">
+                <a
+                    href="index.html"
+                    class="brand"
+                    aria-label="Snowa Cafe - Trang chủ"
+                    ><img
+                        src="./public/image/logo.png"
+                        alt="SNOWA Fresh Moments Cafe"
+                /></a>
+                <details class="mobile-menu">
+                    <summary aria-label="Mở menu">
+                        <i class="icon fa-solid fa-bars" aria-hidden="true"></i>
+                    </summary>
+                    <nav aria-label="Điều hướng di động">
+                        <a href="index.html">TRANG CHỦ</a
+                        ><a href="about.html">GIỚI THIỆU</a
+                        ><a href="menu.html">MENU</a
+                        ><a href="promotions.html">KHUYẾN MÃI</a
+                        ><a class="active" href="news.html">TIN TỨC</a
+                        ><a href="contact.html">LIÊN HỆ</a>
+                    </nav>
+                </details>
+                <nav class="nav" aria-label="Điều hướng chính">
+                    <a href="index.html">TRANG CHỦ</a
+                    ><a href="about.html">GIỚI THIỆU</a
+                    ><a href="menu.html">MENU</a
+                    ><a href="promotions.html">KHUYẾN MÃI</a
+                    ><a class="active" href="news.html">TIN TỨC</a
+                    ><a href="contact.html">LIÊN HỆ</a>
+                </nav>
+                <a
+                    href="contact.html#contact"
+                    class="btn btn-solid header-order"
+                    >ĐẶT BÀN / ORDER</a
+                >
+            </div>
+        </header>
+        <main class="journal-article-page">
+            <div class="container journal-article-shell">
+                <a class="journal-back" href="news.html#stories"
+                    ><i
+                        class="icon fa-solid fa-arrow-left"
+                        aria-hidden="true"
+                    ></i>
+                    TẤT CẢ BÀI VIẾT</a
+                >
+                <header class="journal-article-heading">
+                    <p class="eyebrow" id="article-category"></p>
+                    <h1 id="article-title"></h1>
+                    <p class="journal-article-deck" id="article-deck"></p>
+                    <div class="journal-article-meta">
+                        <span>SNOWA JOURNAL</span
+                        ><time id="article-date" datetime=""></time
+                        ><span id="article-reading-time"></span>
+                    </div>
+                </header>
+                <figure class="journal-article-cover">
+                    <img id="article-image" src="" alt="" />
+                    <figcaption id="article-image-caption"></figcaption>
+                </figure>
+                <article
+                    class="journal-article-body"
+                    id="article-body"
+                ></article>
+                <blockquote
+                    class="journal-article-quote"
+                    id="article-quote"
+                ></blockquote>
+                <a class="journal-article-related" id="article-related" href=""
+                    ><span class="eyebrow">ĐỌC THÊM TẠI SNOWA</span
+                    ><strong></strong
+                    ><i
+                        class="icon fa-solid fa-arrow-right"
+                        aria-hidden="true"
+                    ></i
+                ></a>
+                <div class="journal-article-bottom">
+                    <a href="news.html#stories"
+                        ><i
+                            class="icon fa-solid fa-arrow-left"
+                            aria-hidden="true"
+                        ></i>
+                        Quay lại góc chuyện Snowa</a
+                    ><a href="contact.html#contact"
+                        >Ghé thăm quán
+                        <i
+                            class="icon fa-solid fa-arrow-right"
+                            aria-hidden="true"
+                        ></i
+                    ></a>
+                </div>
+            </div>
+        </main>
+        <footer>
+            <div class="container footer-grid">
+                <div class="footer-brand">
+                    <img
+                        src="./public/image/logo.png"
+                        alt="SNOWA Fresh Moments Cafe"
+                    />
+                    <p>
+                        Snowa – Fresh Moments Cafe<br />Cảm ơn bạn đã đồng hành
+                        cùng Snowa.<br />Hãy để mỗi khoảnh khắc tại đây<br />đều
+                        trở nên tươi mát và đáng nhớ.
+                    </p>
+                    <div class="social">
+                        <a href="https://facebook.com" aria-label="Facebook"
+                            ><i
+                                class="icon fa-brands fa-facebook-f"
+                                aria-hidden="true"
+                            ></i></a
+                        ><a href="https://instagram.com" aria-label="Instagram"
+                            ><i
+                                class="icon fa-brands fa-instagram"
+                                aria-hidden="true"
+                            ></i></a
+                        ><a href="https://tiktok.com" aria-label="TikTok"
+                            ><i
+                                class="icon fa-brands fa-tiktok"
+                                aria-hidden="true"
+                            ></i
+                        ></a>
+                    </div>
+                </div>
+                <div>
+                    <h3>THÔNG TIN</h3>
+                    <a href="about.html">Giới thiệu</a
+                    ><a href="menu.html">Menu</a
+                    ><a href="promotions.html">Khuyến mãi</a
+                    ><a href="news.html">Tin tức</a>
+                </div>
+                <div>
+                    <h3>HỖ TRỢ</h3>
+                    <a href="contact.html#contact">Đặt bàn / Order</a
+                    ><a href="contact.html#contact">Câu hỏi thường gặp</a
+                    ><a href="contact.html#contact">Liên hệ</a>
+                </div>
+                <div class="contact">
+                    <h3>LIÊN HỆ</h3>
+                    <p>
+                        <i class="icon fa-solid fa-phone" aria-hidden="true"></i
+                        >0901 234 567
+                    </p>
+                    <p>
+                        <i
+                            class="icon fa-solid fa-envelope"
+                            aria-hidden="true"
+                        ></i
+                        >hello@snowacafe.vn
+                    </p>
+                    <p>
+                        <i
+                            class="icon fa-solid fa-location-dot"
+                            aria-hidden="true"
+                        ></i
+                        ><span
+                            >123 Đường Xanh, P. Thảo Điền,<br />TP. Thủ Đức, TP.
+                            HCM</span
+                        >
+                    </p>
+                    <p>
+                        <i
+                            class="icon fa-regular fa-clock"
+                            aria-hidden="true"
+                        ></i
+                        >07:30 - 22:00 (T2 - CN)
+                    </p>
+                </div>
+            </div>
+            <div class="copyright container">
+                © 2024 SNOWA Cafe. All rights reserved.
+            </div>
+            <a class="back-top" href="#top" aria-label="Về đầu trang"
+                ><i class="icon fa-solid fa-chevron-up" aria-hidden="true"></i
+            ></a>
+        </footer>
+        <script>
+            const articles = {
+                "slow-moment": {
+                    category: "CÂU CHUYỆN SNOWA",
+                    date: "02/11/2026",
+                    title: "Một góc xanh để ngày chậm lại",
+                    deck: "Snowa là lời mời ghé vào một không gian xanh mát giữa Thảo Điền, nơi bạn có thể chọn món mình thích, ngồi lại lâu hơn một chút và để nhịp sống chậm xuống. Từ ánh nắng bên khung cửa đến những cuộc hẹn thân quen, mỗi góc nhỏ đều được dành cho một khoảng nghỉ dễ chịu.",
+                    image: "./public/image/cafe-story-v2.png",
+                    caption: "Ánh nắng sớm trong không gian xanh của Snowa.",
+                    minutes: "5 PHÚT ĐỌC",
+                    sections: [
+                        {
+                            heading: "Một nơi để ghé vào bất cứ lúc nào",
+                            paragraphs: [
+                                "Có những ngày mình chỉ cần một chỗ ngồi dễ chịu, một ly nước mát và vài phút không phải vội. Snowa mong muốn mang đến cảm giác ấy: thân quen, dịu dàng và đủ yên để mỗi người tìm thấy nhịp nghỉ của riêng mình. Vì vậy, không gian được mở thoáng, đón ánh sáng tự nhiên và điểm thêm nhiều mảng xanh để bạn dễ dàng thả lỏng ngay khi bước vào quán.",
+                                "Ánh sáng tự nhiên, những tán cây xanh và chất liệu mộc tạo nên một không gian gần gũi. Mỗi chỗ ngồi có một sắc thái riêng: bàn cạnh cửa sổ cho người thích ngắm phố, góc sofa êm cho cuộc trò chuyện dài, hay chiếc bàn nhỏ yên tĩnh để đọc vài trang sách. Bạn có thể ghé một mình, gặp bạn bè hay dành buổi chiều để trò chuyện thật lâu.",
+                            ],
+                        },
+                        {
+                            heading: "Những khoảnh khắc được giữ lại",
+                            paragraphs: [
+                                "Niềm vui ở quán thường đến từ những điều nhỏ: một cuộc hẹn bất chợt, một món mới được chia đôi, hay buổi sáng ngồi cạnh khung cửa nhìn phố thức dậy. Chúng mình chăm chút từng góc quán để những khoảnh khắc ấy luôn dễ chịu. Thực đơn cũng được chuẩn bị để đồng hành với nhiều tâm trạng — bingsu mát lành cho ngày nắng, cà phê thơm đậm cho buổi sáng và một miếng bánh ngọt để cuộc hẹn thêm trọn vẹn. Dù ghé nhanh hay ngồi lại lâu, Snowa mong bạn luôn tìm được một góc thân quen của riêng mình.",
+                            ],
+                        },
+                    ],
+                    quote: "Chậm một nhịp, để tận hưởng trọn vẹn khoảnh khắc của mình.",
+                    relatedHref: "about.html",
+                    relatedTitle: "Tìm hiểu thêm về không gian Snowa",
+                },
+                "mango-days": {
+                    category: "HƯƠNG VỊ · MÓN ĐƯỢC YÊU THÍCH",
+                    date: "31/10/2026",
+                    title: "Bingsu xoài cho những ngày nắng",
+                    deck: "Xoài chín thơm, đá bào mịn và chút giòn vui miệng — món mát lành để cùng bạn bè chia sẻ trong một buổi trưa oi ả.",
+                    image: "https://images.unsplash.com/photo-1563805042-7684c019e1cb?auto=format&fit=crop&w=1200&q=85",
+                    caption:
+                        "Bingsu xoài là một trong những món mát được yêu thích tại Snowa.",
+                    minutes: "3 PHÚT ĐỌC",
+                    sections: [
+                        {
+                            heading: "Vị xoài chín trong từng thìa mát lạnh",
+                            paragraphs: [
+                                "Bingsu xoài kết hợp lớp đá bào mịn với xoài vàng thơm và phần topping tạo thêm chút giòn vui miệng. Vị ngọt dịu của trái cây khiến món ăn dễ thưởng thức, nhất là trong những ngày nắng.",
+                                "Một phần bingsu hợp để gọi chung cho bàn bạn bè. Cùng nhau chia sẻ từng thìa cũng là cách đơn giản để cuộc hẹn thêm vui.",
+                            ],
+                        },
+                        {
+                            heading: "Một món ngọt vừa đủ",
+                            paragraphs: [
+                                "Chúng mình chọn cách giữ hương vị cân bằng để xoài vẫn là điểm nhấn. Bạn có thể dùng bingsu như món tráng miệng sau bữa ăn hoặc gọi kèm một tách cà phê cho buổi chiều thong thả.",
+                            ],
+                        },
+                    ],
+                    quote: "Có những ngày nắng chỉ cần một món mát lành và một cuộc hẹn dễ chịu.",
+                    relatedHref: "product-detail.html#mango-bingsu",
+                    relatedTitle: "Xem chi tiết Bingsu xoài",
+                },
+                "light-space": {
+                    category: "KHÔNG GIAN SNOWA",
+                    date: "29/10/2026",
+                    title: "Ánh nắng ghé qua khung cửa",
+                    deck: "Từ tán cây ngoài hiên đến những chiếc bàn gỗ bên cửa sổ, mỗi góc tại Snowa đều được dành cho những phút giây nghỉ ngơi thật tự nhiên.",
+                    image: "https://images.unsplash.com/photo-1554118811-1e0d58224f24?auto=format&fit=crop&w=1200&q=85",
+                    caption:
+                        "Không gian ấm cúng với ánh sáng tự nhiên và nhiều cây xanh.",
+                    minutes: "4 PHÚT ĐỌC",
+                    sections: [
+                        {
+                            heading: "Một góc nhỏ, nhiều cách tận hưởng",
+                            paragraphs: [
+                                "Có người chọn chiếc bàn cạnh cửa sổ để đọc sách, có người thích ngồi bên bạn bè kể chuyện. Không gian Snowa được sắp xếp để mỗi cuộc hẹn đều thoải mái theo cách riêng.",
+                                "Mây tre, gỗ sáng màu và cây xanh góp phần tạo cảm giác nhẹ nhàng. Ánh nắng thay đổi theo từng thời điểm trong ngày, mang đến một khung cảnh khác nhau mỗi lần bạn ghé.",
+                            ],
+                        },
+                        {
+                            heading: "Thân quen như một nơi chốn",
+                            paragraphs: [
+                                "Chúng mình tin một quán cà phê dễ nhớ không chỉ nằm ở thiết kế, mà còn ở cảm giác muốn quay lại. Một lời chào thân thiện, chiếc bàn quen và món uống yêu thích — tất cả góp thành những điều giản dị ấy.",
+                            ],
+                        },
+                    ],
+                    quote: "Một chiếc bàn thân quen có thể biến phút nghỉ ngắn thành khoảng thời gian đáng nhớ.",
+                    relatedHref: "about.html",
+                    relatedTitle: "Đọc câu chuyện về Snowa",
+                },
+                "matcha-pause": {
+                    category: "HƯƠNG VỊ · TRÀ",
+                    date: "26/10/2026",
+                    title: "Một nhịp dịu dàng cùng matcha",
+                    deck: "Sắc trà xanh mát mắt, vị trà dịu và lớp sữa mịn khiến matcha latte trở thành lựa chọn hợp cho một khoảng nghỉ giữa ngày.",
+                    image: "https://images.unsplash.com/photo-1515823064-d6e0c04616a7?auto=format&fit=crop&w=1200&q=85",
+                    caption:
+                        "Matcha latte mát lạnh, pha cùng sữa tươi tại Snowa.",
+                    minutes: "3 PHÚT ĐỌC",
+                    sections: [
+                        {
+                            heading: "Hương trà nhẹ nhàng, vị sữa mềm mịn",
+                            paragraphs: [
+                                "Matcha có hương thơm đặc trưng và vị thanh dịu. Khi kết hợp cùng sữa tươi, thức uống trở nên cân bằng, dễ nhâm nhi trong lúc làm việc hay trò chuyện.",
+                                "Phiên bản đá mát lạnh hợp với những ngày nắng. Nếu muốn một trải nghiệm ấm áp hơn, bạn có thể hỏi nhân viên về lựa chọn nóng khi gọi món.",
+                            ],
+                        },
+                        {
+                            heading: "Dành cho một khoảng nghỉ nhỏ",
+                            paragraphs: [
+                                "Không cần một dịp đặc biệt để tự thưởng cho mình một ly matcha. Đôi khi, vài phút rời khỏi lịch trình bận rộn đã đủ để lấy lại năng lượng và tiếp tục ngày mới nhẹ nhàng hơn.",
+                            ],
+                        },
+                    ],
+                    quote: "Một ly trà dịu vị, một khoảng nghỉ ngắn — vừa đủ cho buổi chiều.",
+                    relatedHref: "product-detail.html#matcha-latte",
+                    relatedTitle: "Xem chi tiết Matcha latte",
+                },
+                "menu-moments": {
+                    category: "TỪ BẾP SNOWA",
+                    date: "23/10/2026",
+                    title: "Chọn món theo khoảnh khắc của bạn",
+                    deck: "Bingsu mát lạnh, trà dịu nhẹ, cà phê thơm đậm và bánh ngọt vừa đủ — thực đơn Snowa có một lựa chọn cho mỗi cuộc hẹn.",
+                    image: "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?auto=format&fit=crop&w=1200&q=85",
+                    caption: "Một vài món trong thực đơn tại Snowa.",
+                    minutes: "4 PHÚT ĐỌC",
+                    sections: [
+                        {
+                            heading: "Khi muốn ngồi lại cùng bạn bè",
+                            paragraphs: [
+                                "Những món mát và phần tráng miệng hợp để chia sẻ quanh bàn. Bingsu trái cây mang đến vị ngọt tươi mát, còn một phần bánh nhỏ có thể làm cuộc hẹn cà phê thêm trọn vẹn.",
+                                "Nếu bạn muốn một buổi sáng tỉnh táo, cà phê là lựa chọn quen thuộc. Trà và các thức uống trái cây lại hợp với những lúc cần chút nhẹ nhàng.",
+                            ],
+                        },
+                        {
+                            heading: "Tìm món mới theo cách riêng",
+                            paragraphs: [
+                                "Bạn có thể bắt đầu từ món yêu thích hoặc hỏi nhân viên gợi ý theo khẩu vị. Thực đơn có nhiều lựa chọn để mỗi lần ghé Snowa đều có thể thử một hương vị mới.",
+                            ],
+                        },
+                    ],
+                    quote: "Mỗi cuộc hẹn có một hương vị riêng — cứ chọn món hợp với khoảnh khắc của bạn.",
+                    relatedHref: "menu.html",
+                    relatedTitle: "Xem toàn bộ thực đơn SNOWA",
+                },
+                "strawberry-afternoon": {
+                    category: "HƯƠNG VỊ · MÓN NGỌT LÀNH",
+                    date: "20/10/2026",
+                    title: "Vị dâu tươi cho buổi hẹn nhẹ nhàng",
+                    deck: "Dâu tây thơm dịu kết hợp cùng sữa chua mát mịn, tạo nên vị chua ngọt hài hòa cho một buổi chiều thư thả.",
+                    image: "https://images.unsplash.com/photo-1488477181946-6428a0291777?auto=format&fit=crop&w=1200&q=85",
+                    caption: "Sữa chua dâu tây với trái cây tươi.",
+                    minutes: "3 PHÚT ĐỌC",
+                    sections: [
+                        {
+                            heading: "Chua ngọt hài hòa từ dâu tươi",
+                            paragraphs: [
+                                "Dâu tây mang vị thơm ngọt đặc trưng, kết hợp với sữa chua tạo cảm giác mát lành. Món này phù hợp khi bạn muốn tìm một lựa chọn nhẹ nhàng sau bữa ăn hoặc trong buổi chiều nóng.",
+                                "Màu sắc tươi sáng và vị trái cây thân quen cũng khiến đây trở thành món dễ chia sẻ với bạn bè, đặc biệt khi cả bàn muốn gọi thêm một món ngọt.",
+                            ],
+                        },
+                        {
+                            heading: "Một chút tươi mới giữa ngày",
+                            paragraphs: [
+                                "Snowa yêu những hương vị gần gũi, được làm mới bằng cách kết hợp đơn giản. Dâu tây và sữa chua là một gợi ý như thế — thanh nhẹ, dễ thưởng thức và hợp với nhiều khoảnh khắc.",
+                            ],
+                        },
+                    ],
+                    quote: "Thêm một chút vị dâu, buổi chiều thường trở nên tươi mới hơn.",
+                    relatedHref: "product-detail.html#strawberry-yogurt",
+                    relatedTitle: "Xem chi tiết Sữa chua dâu tây",
+                },
+                "meet-thao-dien": {
+                    category: "HẸN GẶP BẠN · THẢO ĐIỀN",
+                    date: "17/10/2026",
+                    title: "Ghé Snowa, hẹn nhau ở Thảo Điền",
+                    deck: "Một địa chỉ thân quen để gặp bạn bè, thưởng thức món yêu thích hoặc dành cho mình một khoảng nghỉ giữa ngày.",
+                    image: "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=1200&q=85",
+                    caption: "Snowa chào đón bạn mỗi ngày tại Thảo Điền.",
+                    minutes: "2 PHÚT ĐỌC",
+                    sections: [
+                        {
+                            heading: "Một điểm hẹn gần gũi",
+                            paragraphs: [
+                                "Dù là cuộc hẹn đã lên lịch hay một lần ghé ngang bất chợt, Snowa luôn mong trở thành nơi bạn có thể ngồi xuống thật thoải mái. Không gian xanh mát cùng thực đơn đa dạng sẵn sàng cho buổi gặp gỡ của bạn.",
+                                "Quán nằm tại 123 Đường Xanh, P. Thảo Điền, TP. Thủ Đức, TP. Hồ Chí Minh và mở cửa mỗi ngày từ 07:30 đến 22:00.",
+                            ],
+                        },
+                        {
+                            heading: "Hẹn gặp bạn tại Snowa",
+                            paragraphs: [
+                                "Bạn có thể xem bản đồ, gọi điện hoặc gửi thông tin qua trang liên hệ để quán hỗ trợ đặt bàn. Chúng mình rất vui khi được đón bạn trong lần ghé tiếp theo.",
+                            ],
+                        },
+                    ],
+                    quote: "Một cuộc hẹn dễ chịu có thể bắt đầu từ một góc quán thân quen.",
+                    relatedHref: "contact.html#contact",
+                    relatedTitle: "Địa chỉ và thông tin liên hệ Snowa",
+                },
+            };
+            const slug =
+                new URLSearchParams(window.location.search).get("post") ||
+                "slow-moment";
+            const article = articles[slug] || articles["slow-moment"];
+            document.title = `${article.title} | SNOWA Journal`;
+            document.getElementById("article-category").textContent =
+                article.category;
+            document.getElementById("article-title").textContent =
+                article.title;
+            document.getElementById("article-deck").textContent = article.deck;
+            document.getElementById("article-reading-time").textContent =
+                article.minutes;
+            document.getElementById("article-date").textContent = article.date;
+            document.getElementById("article-date").dateTime = article.date
+                .split("/")
+                .reverse()
+                .join("-");
+            const cover = document.getElementById("article-image");
+            cover.src = article.image;
+            cover.alt = article.title;
+            document.getElementById("article-image-caption").textContent =
+                article.caption;
+            const body = document.getElementById("article-body");
+            article.sections.forEach((section) => {
+                const part = document.createElement("section");
+                const heading = document.createElement("h2");
+                heading.textContent = section.heading;
+                part.append(heading);
+                section.paragraphs.forEach((copy) => {
+                    const paragraph = document.createElement("p");
+                    paragraph.textContent = copy;
+                    part.append(paragraph);
+                });
+                body.append(part);
+            });
+            document.getElementById("article-quote").textContent =
+                `“${article.quote}”`;
+            const related = document.getElementById("article-related");
+            related.href = article.relatedHref;
+            related.querySelector("strong").textContent = article.relatedTitle;
+        </script>
+        <script src="./public/js/site.js" defer></script>
+    </body>
+</html>
